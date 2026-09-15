@@ -27,7 +27,7 @@
     </div>
 
     <!-- 挨拶文 -->
-    <section class="bg-white rounded-lg shadow-sm p-6 sm:p-8 mb-8 leading-loose text-[15px] sm:text-base">
+    <section class="bg-white rounded-lg shadow-sm p-5 sm:p-8 mb-8 leading-relaxed sm:leading-loose text-sm sm:text-base">
         <p class="mb-4">拝啓　時下益々ご清祥のこととお慶び申し上げます。</p>
         <p class="mb-4">
             平素は格別のご高配を賜り、心より感謝申し上げます。この度、皆さまの各種保険契約を
@@ -68,11 +68,40 @@
         </div>
     </section>
 
-    <!-- 新旧代理店情報の比較テーブル -->
+    <!-- 新旧代理店情報の比較 -->
     <section class="mb-10">
         <h2 class="section-title text-lg sm:text-xl font-bold text-[#1e3a5f] mb-5">新旧代理店情報</h2>
 
-        <div class="table-wrapper rounded-lg shadow-sm">
+        <!-- スマホ表示：カード形式（横スクロールなし） -->
+        <div class="sm:hidden space-y-4">
+            <div class="rounded-lg shadow-sm bg-white border border-slate-200 overflow-hidden">
+                <div class="bg-[#334f6e] text-white text-sm font-semibold px-4 py-2">
+                    現保険代理店<span class="font-normal text-slate-200 ml-1">〜2026年9月末</span>
+                </div>
+                <dl class="divide-y divide-slate-200 text-sm">
+                    <div class="flex px-4 py-2"><dt class="w-20 shrink-0 text-slate-500">会社名</dt><dd>株式会社フィンテック</dd></div>
+                    <div class="flex px-4 py-2"><dt class="w-20 shrink-0 text-slate-500">代表者</dt><dd>馬場　数馬</dd></div>
+                    <div class="flex px-4 py-2"><dt class="w-20 shrink-0 text-slate-500">所在地</dt><dd>東京都品川区西五反田1-5-1 A-PLACE 五反田駅前 4F</dd></div>
+                    <div class="flex px-4 py-2"><dt class="w-20 shrink-0 text-slate-500">電話番号</dt><dd>03-6721-6499</dd></div>
+                    <div class="flex px-4 py-2"><dt class="w-20 shrink-0 text-slate-500">所属支社</dt><dd>LP支社 神奈川県横浜市神奈川区鶴屋町2-21-9 三善ビル 9F</dd></div>
+                </dl>
+            </div>
+            <div class="new-agency-col rounded-lg shadow-sm border-2 border-[#1e3a5f] overflow-hidden">
+                <div class="bg-[#1e3a5f] text-white text-sm font-semibold px-4 py-2">
+                    新保険代理店<span class="font-normal text-slate-200 ml-1">2026年10月1日〜</span>
+                </div>
+                <dl class="divide-y divide-slate-200 text-sm">
+                    <div class="flex px-4 py-2"><dt class="w-20 shrink-0 text-slate-500">会社名</dt><dd class="font-semibold">株式会社ゲイン</dd></div>
+                    <div class="flex px-4 py-2"><dt class="w-20 shrink-0 text-slate-500">代表者</dt><dd>三木　淳</dd></div>
+                    <div class="flex px-4 py-2"><dt class="w-20 shrink-0 text-slate-500">所在地</dt><dd>東京都港区元赤坂1-4-21 赤坂パレスビル 6F</dd></div>
+                    <div class="flex px-4 py-2"><dt class="w-20 shrink-0 text-slate-500">電話番号</dt><dd>03-6459-2746</dd></div>
+                    <div class="flex px-4 py-2"><dt class="w-20 shrink-0 text-slate-500">所属支社</dt><dd>FP事業部（変更なし）</dd></div>
+                </dl>
+            </div>
+        </div>
+
+        <!-- PC/タブレット表示：比較テーブル -->
+        <div class="hidden sm:block table-wrapper rounded-lg shadow-sm">
             <table class="compare-table w-full bg-white text-sm sm:text-base border-collapse">
                 <thead>
                     <tr>
