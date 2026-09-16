@@ -1,0 +1,45 @@
+/* 保険契約取扱代理店の変更のご案内 - カスタムスタイル */
+
+body {
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+    background-color: #f4f6f9;
+    color: #1e2a3a;
+}
+
+/* 見出しに使う縦線アクセント */
+.section-title {
+    border-left: 5px solid #1e3a5f;
+    padding-left: 0.75rem;
+}
+
+/* お願い事項の強調枠 */
+.notice-box {
+    border: 2px solid #b91c1c;
+    background-color: #fef2f2;
+}
+
+/* 比較テーブルのスクロール対応（スマホ幅対策） */
+.table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+table.compare-table {
+    min-width: 640px;
+}
+
+table.compare-table th,
+table.compare-table td {
+    vertical-align: top;
+}
+
+/* 新代理店の列を強調 */
+.new-agency-col {
+    background-color: #eef4fb;
+}
+
+@media print {
+    body {
+        background-color: #ffffff;
+    }
+}
