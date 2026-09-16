@@ -35,6 +35,18 @@ table.compare-table td {
     writing-mode: horizontal-tb;
 }
 
+/* 画像のシャープ表示（低解像度素材の引き伸ばしによるボケ対策） */
+.crisp-img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    max-width: 100%;
+}
+
+/* 小さいロゴ画像を実寸に近いサイズで綺麗に見せるための表示枠 */
+.logo-tile {
+    background-color: #f4f6f9;
+}
+
 @media print {
     body {
         background-color: #ffffff;
