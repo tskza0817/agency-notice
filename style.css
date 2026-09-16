@@ -35,11 +35,6 @@ table.compare-table td {
     writing-mode: horizontal-tb;
 }
 
-/* 新代理店の列を強調 */
-.new-agency-col {
-    background-color: #eef4fb;
-}
-
 @media print {
     body {
         background-color: #ffffff;
