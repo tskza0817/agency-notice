@@ -23,32 +23,53 @@
     <section class="mb-10">
         <h2 class="section-title text-lg sm:text-xl font-bold text-[#1e3a5f] mb-5">1. 取扱代理店の変更について</h2>
 
-        <!-- スマホ表示：カード形式（横スクロールなし） -->
-        <div class="sm:hidden space-y-4">
-            <div class="rounded-lg shadow-sm bg-white border border-slate-200 overflow-hidden">
-                <div class="bg-[#334f6e] text-white text-sm font-semibold px-4 py-2">
-                    現保険代理店<span class="font-normal text-slate-200 ml-1">〜2026年9月末</span>
+        <!-- スマホ表示：比較リスト（フラット・横書き統一） -->
+        <div class="sm:hidden rounded-lg border border-slate-200 bg-white overflow-hidden">
+            <div class="grid grid-cols-2 border-b border-slate-300 text-xs sm:text-sm">
+                <div class="px-4 py-3 text-slate-500 font-semibold">
+                    現保険代理店<br><span class="font-normal text-slate-400">〜2026年9月末</span>
                 </div>
-                <dl class="divide-y divide-slate-200 text-sm">
-                    <div class="flex px-4 py-2"><dt class="w-20 shrink-0 text-slate-500">会社名</dt><dd>株式会社フィンテック</dd></div>
-                    <div class="flex px-4 py-2"><dt class="w-20 shrink-0 text-slate-500">代表者</dt><dd>馬場　数馬</dd></div>
-                    <div class="flex px-4 py-2"><dt class="w-20 shrink-0 text-slate-500">所在地</dt><dd>東京都品川区西五反田1-5-1 A-PLACE 五反田駅前 4F</dd></div>
-                    <div class="flex px-4 py-2"><dt class="w-20 shrink-0 text-slate-500">電話番号</dt><dd>03-6721-6499</dd></div>
-                    <div class="flex px-4 py-2"><dt class="w-20 shrink-0 text-slate-500">所属支社</dt><dd>LP支社 神奈川県横浜市神奈川区鶴屋町2-21-9 三善ビル 9F</dd></div>
-                </dl>
-            </div>
-            <div class="new-agency-col rounded-lg shadow-sm border-2 border-[#1e3a5f] overflow-hidden">
-                <div class="bg-[#1e3a5f] text-white text-sm font-semibold px-4 py-2">
-                    新保険代理店<span class="font-normal text-slate-200 ml-1">2026年10月1日〜</span>
+                <div class="px-4 py-3 text-[#1e3a5f] font-semibold border-l border-slate-200">
+                    新保険代理店<br><span class="font-normal text-slate-400">2026年10月1日〜</span>
                 </div>
-                <dl class="divide-y divide-slate-200 text-sm">
-                    <div class="flex px-4 py-2"><dt class="w-20 shrink-0 text-slate-500">会社名</dt><dd class="font-semibold">株式会社ゲイン</dd></div>
-                    <div class="flex px-4 py-2"><dt class="w-20 shrink-0 text-slate-500">代表者</dt><dd>三木　淳</dd></div>
-                    <div class="flex px-4 py-2"><dt class="w-20 shrink-0 text-slate-500">所在地</dt><dd>東京都港区元赤坂1-4-21 赤坂パレスビル 6F</dd></div>
-                    <div class="flex px-4 py-2"><dt class="w-20 shrink-0 text-slate-500">電話番号</dt><dd>03-6459-2746</dd></div>
-                    <div class="flex px-4 py-2"><dt class="w-20 shrink-0 text-slate-500">所属支社</dt><dd>FP事業部（住所に変更なし）</dd></div>
-                </dl>
             </div>
+            <dl class="divide-y divide-slate-200 text-sm">
+                <div class="px-4 py-3">
+                    <dt class="text-xs text-slate-400 mb-1">会社名</dt>
+                    <dd class="grid grid-cols-2 gap-2">
+                        <span>株式会社フィンテック</span>
+                        <span class="font-semibold text-[#1e3a5f] border-l border-slate-200 pl-2">株式会社ゲイン</span>
+                    </dd>
+                </div>
+                <div class="px-4 py-3">
+                    <dt class="text-xs text-slate-400 mb-1">代表者</dt>
+                    <dd class="grid grid-cols-2 gap-2">
+                        <span>馬場　数馬</span>
+                        <span class="border-l border-slate-200 pl-2">三木　淳</span>
+                    </dd>
+                </div>
+                <div class="px-4 py-3">
+                    <dt class="text-xs text-slate-400 mb-1">所在地</dt>
+                    <dd class="grid grid-cols-2 gap-2">
+                        <span>東京都品川区西五反田1-5-1<br>A-PLACE 五反田駅前 4F</span>
+                        <span class="border-l border-slate-200 pl-2">東京都港区元赤坂1-4-21<br>赤坂パレスビル 6F</span>
+                    </dd>
+                </div>
+                <div class="px-4 py-3">
+                    <dt class="text-xs text-slate-400 mb-1">電話番号</dt>
+                    <dd class="grid grid-cols-2 gap-2">
+                        <span>03-6721-6499</span>
+                        <span class="border-l border-slate-200 pl-2">03-6459-2746</span>
+                    </dd>
+                </div>
+                <div class="px-4 py-3">
+                    <dt class="text-xs text-slate-400 mb-1">所属支社</dt>
+                    <dd class="grid grid-cols-2 gap-2">
+                        <span>LP支社<br>神奈川県横浜市神奈川区鶴屋町2-21-9<br>三善ビル 9F</span>
+                        <span class="border-l border-slate-200 pl-2">横浜支社<br>（住所に変更なし）</span>
+                    </dd>
+                </div>
+            </dl>
         </div>
 
         <!-- PC/タブレット表示：比較テーブル -->
@@ -60,41 +81,41 @@
                     <col class="w-1/2">
                 </colgroup>
                 <thead>
-                    <tr class="border-b-2 border-[#1e3a5f]">
-                        <th class="bg-slate-50 text-left px-4 py-3"></th>
-                        <th class="bg-slate-50 text-left px-4 py-3 text-slate-600 font-semibold">
+                    <tr class="border-b border-slate-300">
+                        <th class="text-left px-4 py-3"></th>
+                        <th class="text-left px-4 py-3 text-slate-600 font-semibold">
                             現保険代理店<br><span class="text-xs font-normal text-slate-400">〜2026年9月末</span>
                         </th>
-                        <th class="bg-slate-50 text-left px-4 py-3 text-[#1e3a5f] font-semibold">
+                        <th class="text-left px-4 py-3 text-[#1e3a5f] font-semibold border-l border-slate-200">
                             新保険代理店<br><span class="text-xs font-normal text-slate-400">2026年10月1日〜</span>
                         </th>
                     </tr>
                 </thead>
                 <tbody class="divide-y divide-slate-200">
                     <tr>
-                        <th class="text-left px-4 py-3 bg-slate-50 font-medium text-slate-600 whitespace-nowrap">会社名</th>
+                        <th class="text-left px-4 py-3 font-medium text-slate-500 whitespace-nowrap">会社名</th>
                         <td class="px-4 py-3">株式会社フィンテック</td>
-                        <td class="px-4 py-3 font-semibold text-[#1e3a5f]">株式会社ゲイン</td>
+                        <td class="px-4 py-3 font-semibold text-[#1e3a5f] border-l border-slate-200">株式会社ゲイン</td>
                     </tr>
                     <tr>
-                        <th class="text-left px-4 py-3 bg-slate-50 font-medium text-slate-600 whitespace-nowrap">代表者</th>
+                        <th class="text-left px-4 py-3 font-medium text-slate-500 whitespace-nowrap">代表者</th>
                         <td class="px-4 py-3">馬場　数馬</td>
-                        <td class="px-4 py-3">三木　淳</td>
+                        <td class="px-4 py-3 border-l border-slate-200">三木　淳</td>
                     </tr>
                     <tr>
-                        <th class="text-left px-4 py-3 bg-slate-50 font-medium text-slate-600 whitespace-nowrap">所在地</th>
+                        <th class="text-left px-4 py-3 font-medium text-slate-500 whitespace-nowrap">所在地</th>
                         <td class="px-4 py-3">東京都品川区西五反田1-5-1<br>A-PLACE 五反田駅前 4F</td>
-                        <td class="px-4 py-3">東京都港区元赤坂1-4-21<br>赤坂パレスビル 6F</td>
+                        <td class="px-4 py-3 border-l border-slate-200">東京都港区元赤坂1-4-21<br>赤坂パレスビル 6F</td>
                     </tr>
                     <tr>
-                        <th class="text-left px-4 py-3 bg-slate-50 font-medium text-slate-600 whitespace-nowrap">電話番号</th>
+                        <th class="text-left px-4 py-3 font-medium text-slate-500 whitespace-nowrap">電話番号</th>
                         <td class="px-4 py-3">03-6721-6499</td>
-                        <td class="px-4 py-3">03-6459-2746</td>
+                        <td class="px-4 py-3 border-l border-slate-200">03-6459-2746</td>
                     </tr>
                     <tr>
-                        <th class="text-left px-4 py-3 bg-slate-50 font-medium text-slate-600 whitespace-nowrap">所属支社</th>
+                        <th class="text-left px-4 py-3 font-medium text-slate-500 whitespace-nowrap">所属支社</th>
                         <td class="px-4 py-3">LP支社<br>神奈川県横浜市神奈川区鶴屋町2-21-9<br>三善ビル 9F</td>
-                        <td class="px-4 py-3">横浜支社<br>（住所に変更なし）</td>
+                        <td class="px-4 py-3 border-l border-slate-200">横浜支社<br>（住所に変更なし）</td>
                     </tr>
                 </tbody>
             </table>
