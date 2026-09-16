@@ -26,6 +26,7 @@ body {
 
 table.compare-table {
     min-width: 640px;
+    table-layout: fixed;
 }
 
 table.compare-table th,
