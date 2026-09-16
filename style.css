@@ -47,13 +47,6 @@ table.compare-table td {
     font-family: "コーポレート・ロゴ ver3 Medium", "Corporate Logo ver3 Medium", "游ゴシック体", "Yu Gothic", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Meiryo", sans-serif;
 }
 
-/* ビジュアル上の縦書きロゴ表記 */
-.vertical-rl {
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    letter-spacing: 0.2em;
-}
-
 @media print {
     body {
         background-color: #ffffff;
