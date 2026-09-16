@@ -202,19 +202,23 @@
         <!-- メインビジュアル -->
         <div class="rounded-lg overflow-hidden border border-slate-200 bg-white mb-8">
             <div class="relative">
-                <img src="p1.jpg" alt="ONE FPグループ" class="crisp-img w-full h-48 sm:h-72 object-cover">
-                <div class="absolute bottom-0 left-0 w-full bg-[#1e3a5f]/90 px-4 py-3 sm:py-4">
-                    <p class="font-corporate-logo text-xl sm:text-3xl font-bold text-white tracking-wide text-center">ONE FP Group</p>
+                <img src="p1.jpg" alt="ONE FPグループ" class="crisp-img w-full h-64 sm:h-[28rem] object-cover">
+
+                <!-- ONE FP GROUP（左端・回転した縦長ロゴテキスト） -->
+                <p class="font-corporate-logo absolute left-2 sm:left-6 top-1/2 -translate-y-1/2 text-white/90 font-light tracking-[0.3em] text-2xl sm:text-5xl select-none"
+                    style="writing-mode: vertical-rl;">ONE FP Group</p>
+
+                <!-- キャッチコピー（右下・付箋風チップ） -->
+                <div class="absolute bottom-4 right-4 sm:bottom-8 sm:right-8 flex flex-col items-end gap-2 max-w-[78%] sm:max-w-[60%]">
+                    <div class="bg-[#fdf6e3]/95 rounded-md px-4 py-2 sm:px-6 sm:py-3 shadow-sm text-right">
+                        <p class="font-corporate-logo text-sm sm:text-lg font-bold text-[#1e3a5f] leading-snug">
+                            生活に関わるお金のすべてを<br>ワンストップで包括的にアドバイスできる
+                        </p>
+                    </div>
+                    <div class="bg-[#e6f0ef]/95 rounded-md px-4 py-2 sm:px-6 sm:py-2.5 shadow-sm">
+                        <p class="text-xs sm:text-sm font-semibold text-[#1e3a5f]">人生100年時代に必要とされるFP総合会社へ</p>
+                    </div>
                 </div>
-            </div>
-            <div class="p-6 sm:p-10 text-center">
-                <p class="font-corporate-logo text-lg sm:text-2xl font-medium text-[#1e3a5f] leading-relaxed">
-                    生活に関わるお金のすべてを<br>
-                    ワンストップで包括的にアドバイスできる
-                </p>
-                <p class="text-sm sm:text-base text-slate-500 mt-3">
-                    人生100年時代に必要とされるFP総合会社へ
-                </p>
             </div>
         </div>
 
