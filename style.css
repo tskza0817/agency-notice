@@ -42,11 +42,6 @@ table.compare-table td {
     max-width: 100%;
 }
 
-/* 小さいロゴ画像を実寸に近いサイズで綺麗に見せるための表示枠 */
-.logo-tile {
-    background-color: #f4f6f9;
-}
-
 @media print {
     body {
         background-color: #ffffff;
