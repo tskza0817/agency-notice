@@ -138,61 +138,44 @@
             </p>
         </div>
 
-        <div class="table-wrapper rounded-lg border border-slate-200 mb-6">
-            <table class="compare-table w-full bg-white text-sm sm:text-base border-collapse">
-                <colgroup>
-                    <col class="w-24 sm:w-36">
-                    <col>
-                </colgroup>
-                <thead>
-                    <tr class="border-b-2 border-[#1e3a5f]">
-                        <th colspan="2" class="bg-slate-50 text-left px-4 py-3 text-[#1e3a5f] font-semibold">
-                            移籍先で取扱いの無い保険会社<br>
-                            <span class="text-xs font-normal text-slate-400">※取り扱い開始後に順次移管予定</span>
-                        </th>
-                    </tr>
-                </thead>
-                <tbody class="divide-y divide-slate-200">
-                    <tr>
-                        <th rowspan="2" class="text-left px-4 py-3 bg-slate-50 font-medium text-slate-600 whitespace-nowrap align-top">生命保険会社</th>
-                        <td class="px-4 py-3">プルデンシャル ジブラルタ ファイナンシャル生命保険株式会社（PGF生命）</td>
-                    </tr>
-                    <tr>
-                        <td class="px-4 py-3">第一生命保険株式会社</td>
-                    </tr>
-                    <tr>
-                        <th class="text-left px-4 py-3 bg-slate-50 font-medium text-slate-600 whitespace-nowrap">損害保険会社</th>
-                        <td class="px-4 py-3 text-slate-400">対象なし</td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="rounded-lg border border-slate-200 bg-white mb-6">
+            <div class="border-b border-slate-300 px-4 py-3">
+                <p class="text-[#1e3a5f] font-semibold text-sm sm:text-base">移籍先で取扱いの無い保険会社</p>
+                <p class="text-xs font-normal text-slate-400 mt-1">※取り扱い開始後に順次移管予定</p>
+            </div>
+            <dl class="divide-y divide-slate-200 text-sm sm:text-base">
+                <div class="px-4 py-3 flex flex-col sm:flex-row sm:items-start gap-1 sm:gap-4">
+                    <dt class="sm:w-32 shrink-0 font-medium text-slate-500">生命保険会社</dt>
+                    <dd class="flex-1 min-w-0 break-words">プルデンシャル ジブラルタ ファイナンシャル生命保険株式会社（PGF生命）</dd>
+                </div>
+                <div class="px-4 py-3 flex flex-col sm:flex-row sm:items-start gap-1 sm:gap-4">
+                    <dt class="sm:w-32 shrink-0 font-medium text-slate-500"></dt>
+                    <dd class="flex-1 min-w-0 break-words">第一生命保険株式会社</dd>
+                </div>
+                <div class="px-4 py-3 flex flex-col sm:flex-row sm:items-start gap-1 sm:gap-4">
+                    <dt class="sm:w-32 shrink-0 font-medium text-slate-500">損害保険会社</dt>
+                    <dd class="flex-1 min-w-0 break-words text-slate-400">対象なし</dd>
+                </div>
+            </dl>
         </div>
 
-        <div class="table-wrapper rounded-lg border border-slate-200">
-            <table class="compare-table w-full bg-white text-sm sm:text-base border-collapse">
-                <colgroup>
-                    <col class="w-24 sm:w-36">
-                    <col>
-                </colgroup>
-                <thead>
-                    <tr class="border-b-2 border-[#1e3a5f]">
-                        <th colspan="2" class="bg-slate-50 text-left px-4 py-3 text-[#1e3a5f] font-semibold">代理店間の移動が不可な保険会社</th>
-                    </tr>
-                </thead>
-                <tbody class="divide-y divide-slate-200">
-                    <tr>
-                        <th class="text-left px-4 py-3 bg-slate-50 font-medium text-slate-600 whitespace-nowrap align-top">生命保険会社</th>
-                        <td class="px-4 py-3">
-                            アクサ生命保険株式会社
-                            <p class="text-xs text-slate-500 mt-1">※旧アクサダイレクト生命保険株式会社の契約のみ移管が出来ません。（2024年3月31日以前の契約）</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th class="text-left px-4 py-3 bg-slate-50 font-medium text-slate-600 whitespace-nowrap">損害保険会社</th>
-                        <td class="px-4 py-3">楽天損害保険株式会社</td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="rounded-lg border border-slate-200 bg-white">
+            <div class="border-b border-slate-300 px-4 py-3">
+                <p class="text-[#1e3a5f] font-semibold text-sm sm:text-base">代理店間の移動が不可な保険会社</p>
+            </div>
+            <dl class="divide-y divide-slate-200 text-sm sm:text-base">
+                <div class="px-4 py-3 flex flex-col sm:flex-row sm:items-start gap-1 sm:gap-4">
+                    <dt class="sm:w-32 shrink-0 font-medium text-slate-500">生命保険会社</dt>
+                    <dd class="flex-1 min-w-0 break-words">
+                        アクサ生命保険株式会社
+                        <p class="text-xs text-slate-500 mt-1">※旧アクサダイレクト生命保険株式会社の契約のみ移管が出来ません。（2024年3月31日以前の契約）</p>
+                    </dd>
+                </div>
+                <div class="px-4 py-3 flex flex-col sm:flex-row sm:items-start gap-1 sm:gap-4">
+                    <dt class="sm:w-32 shrink-0 font-medium text-slate-500">損害保険会社</dt>
+                    <dd class="flex-1 min-w-0 break-words">楽天損害保険株式会社</dd>
+                </div>
+            </dl>
         </div>
     </section>
 
