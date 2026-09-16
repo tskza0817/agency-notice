@@ -32,6 +32,7 @@ table.compare-table {
 table.compare-table th,
 table.compare-table td {
     vertical-align: top;
+    writing-mode: horizontal-tb;
 }
 
 /* 新代理店の列を強調 */
